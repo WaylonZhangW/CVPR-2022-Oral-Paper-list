@@ -1,5 +1,4 @@
 import os
-import pdb
 
 try:
     from requests_html import HTMLSession
@@ -121,7 +120,6 @@ if __name__ == '__main__':
         session_titles = get_session(oral_link)
         ## get paper title
         df = pd.read_html(oral_link)
-        pdb.set_trace()
         for idx, filename in enumerate(session_titles):
             if '622' in oral_name and idx == 2:
                 paper_list = [s.replace(':', '') for s in df[idx][3][1:] if isinstance(s, str)]
