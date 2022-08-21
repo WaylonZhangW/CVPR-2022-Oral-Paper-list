@@ -1,5 +1,5 @@
 # CVPR-2022-Oral-Paper-list
-The python script of downloading CVPR 2022 oral papers.
+The python script of downloading CVPR 2022 oral papers.  
 脚本的算法流程: 
 1. 按照(cvpr官网)[https://cvpr2022.thecvf.com/orals-623-pm]获取每天oral的链接。（一天分为上午和下午）
 2. 获取每个时间段所有session的论文。
