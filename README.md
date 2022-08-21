@@ -9,7 +9,7 @@ The python script of downloading CVPR 2022 oral papers.
 ps：因为conference schedule中session里的paper title都是全称，而CVPR 2022 open access中所有的paper title都是一作姓氏+部分title + CVPR 2022，我只是做了简单的匹配，所以可能部分文章没有下载。
 
 文件结构（按照session整理）:  
-![image]()
+![image](https://github.com/WaylonZhangW/CVPR-2022-Oral-Paper-list/blob/main/file_structure.jpg)
 
 ## 运行脚本
 ``` 
